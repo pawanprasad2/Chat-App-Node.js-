@@ -1,0 +1,28 @@
+.midsection{
+    height: 42rem;
+}
+.first{
+    height:85%;
+    overflow: auto;
+}
+.first::-webkit-scrollbar{
+    display:none;
+}
+
+
+.alert-primary,.alert-secondary,.alert-danger{
+    width: 70%;
+    clear: both;
+    text-align: left;
+}
+
+.alert-danger{
+    float: right;
+    text-align: right;
+}
+
+.alert-secondary{
+  margin: auto;
+  margin-bottom:20px;
+  text-align: center;
+}
